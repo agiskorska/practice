@@ -77,7 +77,7 @@ header {
 }
 
 .hamburger{
-    margin-right:3rem; 
+  margin-right:3rem; 
   cursor:pointer;
 }
 
@@ -86,9 +86,6 @@ header {
   min-height: 400px;
   background-position: center;
 }
-
-
-
 
 .about {
   margin: 20px;
@@ -177,5 +174,16 @@ footer {
 }
 
 
+.form-container {
+  background-color: black;
+  border-radius: 20px;
+  width: 80%;
+}
 
 
+@media screen and (min-width) {
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
